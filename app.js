@@ -5,27 +5,15 @@
 // Estado principal: arreglo de objetos usuarios
 let usuarios = [
     {
-        nombre: "Juan Pérez",
-        edad: 28,
+        nombre: "Sebastián Luengo",
+        edad: 32,
         rol: "Administrador",
         activo: true
     },
     {
-        nombre: "María García",
+        nombre: "Daniela García",
         edad: 35,
         rol: "Usuario",
-        activo: true
-    },
-    {
-        nombre: "Carlos López",
-        edad: 24,
-        rol: "Usuario",
-        activo: false
-    },
-    {
-        nombre: "Ana Martínez",
-        edad: 42,
-        rol: "Administrador",
         activo: true
     }
 ];

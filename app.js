@@ -1,5 +1,5 @@
 // ============================================================
-// PANEL DE GESTIÓN DE USUARIOS - JavaScript (ES6+)
+// PANEL DE GESTIÓN DE USUARIOS - JavaScript EVA 2
 // ============================================================
 
 // Estado principal: arreglo de objetos usuarios

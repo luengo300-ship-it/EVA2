@@ -147,10 +147,10 @@ function agregarUsuario(evento) {
         return;
     }
 
-    // Validación 2: Edad válida (mayor a 0)
-    if (edad <= 0 || isNaN(edad)) {
-        document.getElementById("errorEdad").textContent = "La edad debe ser mayor a 0";
-        return;
+    // Validación 2: Edad válida (mayor a 0 y menor o igual a 100)
+    if (edad <= 0 || edad > 100 || isNaN(edad)) {
+    document.getElementById("errorEdad").textContent = "La edad debe estar entre 1 y 100";
+    return;
     }
 
     // Validación 3: Rol seleccionado
